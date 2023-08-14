@@ -1,5 +1,5 @@
 - name: Manages a local source install of lbreakouthd
-  hosts: localhost
+  hosts: all
   gather_facts: yes
   vars:
     prefix_dir: "{{ ansible_env.HOME }}/.local/"
